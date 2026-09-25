@@ -27,7 +27,7 @@ to the repo root:
 
 ```sh
 cd source
-npx vite build --base=/ --outDir ../dist-out
+npx vite build --base=/vivavoce-header-preview/ --outDir ../dist-out
 cd ..
 rm -rf assets fonts index.html
 mv dist-out/* . && rmdir dist-out
